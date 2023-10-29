@@ -1,0 +1,211 @@
+/* Navbar<<< */
+
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #1e1e1e;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    width: 50%;
+    list-style: none;
+    justify-content: space-around;
+    text-align: center;
+    border: #DEDEDE solid 1px;
+    border-radius: 0 0 20px 20px;
+    padding: 0.5em 0;
+    position: fixed;
+    top: 0;
+    margin-bottom: 100px;
+    background-color: #1e1e1ec0;
+}
+
+ul li {
+    padding: 1em auto;
+    color: #DEDEDE;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+/* Navbar>>> */
+
+/* Full Webisite */
+
+.cang-container {
+    margin: 1em auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.cang {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    top: 11.5rem;
+    width: 80%;
+}
+
+.cang h1 {
+    font-family: 'Satisfy', cursive;
+    font-size: 100px;
+    margin-bottom: 0.2em;
+    color: #1e1e1e;
+}
+
+.cang p {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.6;
+    color: #1e1e1e;
+}
+
+h2.heading2 {
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    margin: 1em auto;
+    font-size: 3em;
+}
+
+h2.heading22 {
+    color: #1e1e1e;
+    font-family: 'Poppins', sans-serif;
+    margin: 0.5em auto 0.1em;
+    font-size: 3em;
+}
+
+.toTop {
+    position: fixed;
+    color: white;
+    font-size: 2em;
+    background-color: #1e1e1e;
+    border: none;
+    bottom: 1.5em;
+    right: 2em;
+    border-radius: 50%;
+    padding: 0.3em;
+    transition: all .2s;
+    opacity: 0;
+}
+
+.toTop.active {
+    opacity: 1;
+    cursor: pointer;
+}
+
+/* Porfolio<<< */
+
+.portfolio {
+    margin: 7em auto;
+    width: 80%;
+    text-align: center;
+}
+
+.portfolio img {
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.portfolio .furex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfolio p {
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    margin: 0.5em auto;
+}
+
+.projects-con {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5em;
+}
+
+/* Portfolio>>> */
+
+/* About<<< */
+
+.about {
+    text-align: center;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about img {
+    width: 35%;
+    border-radius: 50%;
+}
+
+.about p {
+    text-align: left;
+    color: #DEDEDE;
+    width: 60%;
+    font-size: 1.3em;
+    margin-left: 1.3em;
+}
+
+/* About>>> */
+
+/* Contact<<< */
+
+.contact {
+    text-align: center;
+    background-color: #DEDEDE;
+    width: 100%;
+    margin-top: 9em;
+    padding-top: 2em;
+}
+
+.background-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.svg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.contact svg {
+    width: 2em;
+    fill: #1e1e1e;
+    cursor: pointer;
+}
+
+footer {
+    margin: 2em auto;
+}
+
+section {
+    width: 100%;
+}
